@@ -1,15 +1,13 @@
 $(function () {
     console.log('ready');
 
-
-    //slide toggle
-    $('div.caption').hide();
-
-
-    $('.story').hover(function () {
-        $('div#caption').slideToggle(500);
-
-    });
-
+    $('.slide').hover(
+        function () {
+            $(this).find('.caption').slideToggle(300);
+        },
+        function () {
+            $(this).find('.caption').slideToggle(300);
+        }
+    );
 
 }); //end
