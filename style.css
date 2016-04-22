@@ -1,0 +1,162 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    @font-face {
+        font-family: montserrat-bold;
+        src: url(fonts/montserrat-bold.otf);
+    }
+    
+    @font-face {
+        font-family: montserrat-regular;
+        src: url(fonts/Montserrat-Regular.otf);
+    }
+    
+    @font-face {
+        font-family: RobotoSlab-Regular;
+        src: url(fonts/RobotoSlab-Regular.ttf);
+    }
+    
+    body {
+        font-family: montserrat-regular;
+        font-size: 12px;
+    }
+    
+    p {
+        font-family: RobotoSlab-Regular;
+        font-size: 14px;
+        margin: 15px 0px 15px 0px;
+    }
+    
+    h1 {
+        font-family: montserrat-regular;
+        font-size: 36px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-family: montserrat-regular;
+        font-size: 20px;
+        color: #333333;
+    }
+    
+    h3 {
+        color: white;
+        font-family: montserrat-regular;
+        font-size: 13px;
+    }
+    
+    .top {
+        background-color: #333333;
+        padding: 15px 35px 15px 55px;
+        margin-bottom: 10px;
+    }
+    
+    #intro {
+        padding: 150px 0px 360px 0px;
+    }
+    
+    #intro,
+    #about {
+        background-color: #333333;
+        color: white;
+    }
+    
+    #intro img {
+        padding-bottom: 15px;
+    }
+    
+    ul.nav li {
+        font-family: montserrat-bold;
+        color: white;
+        float: left;
+        list-style: none;
+        font-size: 12px;
+        margin: 12px 40px 0px 0px;
+    }
+    
+    #work img {
+        margin: 25px;
+    }
+    
+    #work {
+        padding: 30px 10px 150px 10px;
+    }
+    
+    #about {
+        padding: 50px 0px 100px 10px;
+        background-color: #333333;
+        color: white;
+    }
+    
+    footer {
+        background-color: #F5F5F5;
+        padding: 20px 0px 30px 0px;
+    }
+    /*BUTTONS*/
+    
+    .b1,
+    .b2,
+    .b3,
+    .b4 {
+        border-radius: 5px;
+        padding: 6px 11px 6px 11px;
+    }
+    
+    .b1 {
+        background-color: #D3BE7A;
+    }
+    
+    .b1:hover {
+        background-color: #B09E66;
+    }
+    
+    .b2 {
+        background-color: #CBBB88;
+    }
+    
+    .b2:hover {
+        background-color: #A99C71;
+    }
+    
+    .b3 {
+        background-color: #C3B896;
+    }
+    
+    .b3:hover {
+        background-color: #A3997D;
+    }
+    
+    .b4 {
+        background-color: #B8B4A9;
+    }
+    
+    .b4:hover {
+        background-color: #99968D;
+    }
+    /*LINKS*/
+    
+    a:link {
+        color: #333333;
+    }
+    
+    a:visited {
+        color: #333333;
+    }
+    
+    #about a:visited,
+    .nav a:visited {
+        color: white;
+    }
+    
+    #about a:link,
+    .nav a:link {
+        color: white;
+    }
+    
+    #about a:hover,
+    a:hover {
+        color: #CBBB88;
+    }
