@@ -9,12 +9,12 @@
             body {
                 font-family: Montserrat;
                 font-weight:400;
-                font-size: .7em;
+                font-size: .75em;
             }
             
             p {
                 font-family: Roboto Slab;
-                font-size: .7em;
+                font-size: .95em;
                 margin: 10px 0px 10px 0px;
             }
 
@@ -24,8 +24,8 @@
             
             h1 {
                   font-family: Montserrat;
-                font-weight:400;
-                font-size: 1em;
+                  font-weight:400;
+                font-size: 2.5em;
                 margin-top: 25px;
                 margin-bottom: 20px;
             }
@@ -33,7 +33,7 @@
             h2 {
                   font-family: Montserrat;
                 font-weight:400;
-                font-size: 1.25em;
+                font-size: 1.6em;
                 color: #333333;
                 margin-top:20px;
             }
@@ -42,7 +42,7 @@
                 color: white;
                   font-family: Montserrat;
                 font-weight:400;
-                font-size: .75px;
+                font-size: 1em;
             }
             
             .top {
@@ -72,7 +72,7 @@
                 color: white;
                 float: left;
                 list-style: none;
-                font-size: .7px;
+                font-size: .8em;
                 margin: 12px 30px 10px 0px;
             }
             
