@@ -9,13 +9,13 @@
             body {
                 font-family: Montserrat;
                 font-weight:400;
-                font-size: .75em;
+                font-size: .8em;
             }
             
             p {
                 font-family: Roboto Slab;
-                font-size: .95em;
-                margin: 10px 0px 10px 0px;
+                font-size: 1em;
+                margin: 0px 0px 10px 0px;
             }
 
              img {
@@ -66,7 +66,7 @@
             }
             
            
-            ul.nav li {
+            #intro ul.nav li {
                   font-family: Montserrat;
                 font-weight:700;
                 color: white;
@@ -74,6 +74,8 @@
                 list-style: none;
                 font-size: .8em;
                 margin: 12px 30px 10px 0px;
+
+
             }
             
             .work {
@@ -109,6 +111,7 @@
             .b4 {
                 border-radius: 4px;
                 padding: 6px 11px 6px 11px;
+
             }
             
             .b1 {
