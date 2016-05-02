@@ -1,4 +1,5 @@
- @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab);
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Anonymous+Pro);
+ 
 
             * {
                 margin: 0px;
@@ -9,25 +10,25 @@
             body {
                 font-family: Montserrat;
                 font-weight:400;
-                font-size: 1em;
+                
             }
             
             p {
-                font-family: Roboto Slab;
+                font-family: Anonymous Pro;
                 font-size: .9em;
                 margin: 0px 0px 10px 0px;
             }
 
              img {
-                padding:0px 10px 25px 0px;
+                padding:0px 10px 20px 0px;
             }
-            
+       
+
             h1 {
                   font-family: Montserrat;
-                  font-weight:400;
+                  font-weight:700;
                 font-size: 2.5em;
-                margin-top: 25px;
-                margin-bottom: 20px;
+                margin: 15px 0px 20px 0px;
             }
             
             h2 {
@@ -40,8 +41,8 @@
             
             h3 {
                 color: white;
-                  font-family: Montserrat;
-                font-weight:400;
+                  font-family: Anonymous Pro;
+                
                 font-size: 1em;
             }
             
@@ -49,22 +50,34 @@
                 background-color: #333333;
                 padding: 15px 35px 0px 55px;
                 margin-bottom: 10px;
+
             }
             
-            #intro {
-                padding: 150px 0px 360px 0px;
+            section#intro {
+            padding: 150px 0px 320px 0px;   
+                background-image:url("../images/bg.jpg");  
+                background-size:cover;
+                width:100%;
+                background-position:center;
+                background-repeat:no-repeat;    
+                position:relative;
+
             }
             
             #intro,
             #about {
-                background-color: #333333;
                 color: white;
+               
             }
             
             #intro img {
                 padding-bottom: 15px;
+                z-index:1;
+                position:relative;
             }
-            
+            #about{
+                 background-color: #333333;
+            }
            
              ul.nav li {
                   font-family: Montserrat;
@@ -126,8 +139,6 @@
 
             #about {
                 padding: 50px 0px 100px 10px;
-                background-color: #333333;
-                color: white;
             }
             
 
@@ -145,8 +156,8 @@
             .b2,
             .b3,
             .b4 {
-                border-radius: 4px;
-                padding: 6px 11px 6px 11px;
+                border-radius: 3px;
+                padding: 6px 15px 6px 15px;
 
             }
             
