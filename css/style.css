@@ -41,34 +41,35 @@
             h3 {
                 color: white;
                   font-family: Anonymous Pro;
-                font-size: 1em;
+                font-size: .85em;
             }
             
             .top {
                 background-color: #333333;
                 padding: 15px 35px 0px 55px;
                 margin-bottom: 10px;
-
             }
-            
+
             section#intro {
-            padding: 50px 0px 400px 0px;   
+            padding: 100px 0px 350px 0px;   
                 background-image:url("../images/bg.jpg");  
                 background-size:cover;
                 width:100%;
                 background-position:center;
                 background-repeat:no-repeat;    
-                position:relative;
             }
             
             #intro,
             #about {
                 color: white;
-               
             }
             
             #intro img {
                 padding-bottom: 15px;
+            }
+
+            div.columns.centered{
+                text-align: center;
             }
 
             #about{
@@ -76,15 +77,13 @@
             }
            
              ul.nav li {
-                  font-family: Montserrat;
+                font-family: Montserrat;
                 font-weight:700;
                 color: white;
                 float: left;
                 list-style: none;
                 font-size: .8em;
                 margin: 12px 30px 10px 0px;
-
-
             }
             
             .work {
@@ -100,45 +99,10 @@
                 padding: 20px 10px 100px 10px;
             }
             
- /*.info {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: #4D243D;
-        width: 350px;
-        height: 350px;
-        padding-top:130px;
-        background-position: center;
-        opacity: 0;
-        font-family: 'Montserrat';
-        font-size: 1.5em;
-        text-align: center;
-        color: white;
-        transition: all 0.5s;
-    }
-
-.sub {
-        font-size: .5em;
-        font-family:Montserrat;
-        color:white;
-        padding-top:10px;
-    }
-.info:hover {
-        opacity: .85;
-    }
-.img {
-    position: relative;
-    padding:1px;
-    
-}
-*/
-
             #about {
                 padding: 20px 0px 100px 10px;
             }
             
-
-
             .back {
                 padding-bottom: 50px;
             }
@@ -146,8 +110,12 @@
             footer {
                   padding: 20px 0px 35px 0px;
             }
-            /*BUTTONS*/
-            
+
+            /*BUTTONS*/    
+            ul#site-nav a.button {
+                margin-top: 1em;
+            }
+
             .b1,
             .b2,
             .b3,
@@ -157,6 +125,7 @@
                 text-align:center;
                 display:block;
                 width:190px;
+
 
             }
             
@@ -192,7 +161,7 @@
                 background-color: #99968D;
             }
             /*LINKS*/
-            
+           
             a:link {
                 color: #333333;
             }
@@ -201,6 +170,7 @@
                 color: #333333;
             }
             
+             #intro a:visited,
             #about a:visited,
             .nav a:visited {
                 color: white;
@@ -223,3 +193,38 @@
                 opacity: .7;
                 padding: 100px;
             }
+
+
+             /*
+ .info {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #4D243D;
+        width: 350px;
+        height: 350px;
+        padding-top:130px;
+        background-position: center;
+        opacity: 0;
+        font-family: 'Montserrat';
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+        transition: all 0.5s;
+    }
+
+.sub {
+        font-size: .5em;
+        font-family:Montserrat;
+        color:white;
+        padding-top:10px;
+    }
+.info:hover {
+        opacity: .85;
+    }
+.img {
+    position: relative;
+    padding:1px;
+    
+}
+*/
