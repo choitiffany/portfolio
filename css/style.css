@@ -16,13 +16,15 @@
             p {
                 font-family: Anonymous Pro;
                 font-size: 1em;
-                margin: 0px 0px 10px 0px;
+                margin:5px 10px 10px 10px;
             }
 
              img:not(#work img) {
                 padding:0px 10px 20px 0px;
             }
+#work img{
 
+}
             h1 {
                   font-family: Montserrat;
                   font-weight:700;
@@ -51,7 +53,7 @@
             }
 
             section#intro {
-            padding: 100px 0px 350px 0px;   
+            padding: 100px 0px 340px 0px;   
                 background-image:url("../images/bg.jpg");  
                 background-size:cover;
                 width:100%;
@@ -69,10 +71,6 @@
 
             div.columns.centered{
                 text-align: center;
-            }
-
-            #about{
-                 background-color: #333333;
             }
            
              ul.nav li {
@@ -99,6 +97,10 @@
             
             #about {
                 padding: 20px 0px 100px 10px;
+                 background-color: #333333;
+            }
+            #about img{
+                padding:5px 10px 10px 10px;
             }
             
             .back {
@@ -183,45 +185,5 @@
                 color: #CBBB88;
             }
             
-            .caption {
-                display: none;
-                position: absolute;
-                background-color: #333333;
-                opacity: .7;
-                padding: 100px;
-            }
+       
 
-
-             /*
- .info {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: #4D243D;
-        width: 350px;
-        height: 350px;
-        padding-top:130px;
-        background-position: center;
-        opacity: 0;
-        font-family: 'Montserrat';
-        font-size: 1.5em;
-        text-align: center;
-        color: white;
-        transition: all 0.5s;
-    }
-
-.sub {
-        font-size: .5em;
-        font-family:Montserrat;
-        color:white;
-        padding-top:10px;
-    }
-.info:hover {
-        opacity: .85;
-    }
-.img {
-    position: relative;
-    padding:1px;
-    
-}
-*/
