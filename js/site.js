@@ -6,56 +6,38 @@ $(document).ready(function() {
 
    $('#storyspace').hover(function () {
         console.log("hover over");
-        $(this).attr('src', 'images/ss_hover.png').animate({
-     fadeIn:450
-        })
+        $(this).attr('src', 'images/ss_hover.png')
     }, function () { //second function
-        $(this).attr('src', 'images/ss2.jpg').animate({
-            swing:450
-        })
+        $(this).attr('src', 'images/ss2.jpg')
     });
 
    $('#infographics').hover(function () {
         console.log("hover over");
-        $(this).attr('src', 'images/infographic_hover.png').animate({
-     swing:450
-        })
+        $(this).attr('src', 'images/infographic_hover.png');
     }, function () { //second function
-        $(this).attr('src', 'images/cindymockup.jpg').animate({
-            swing:450
-        })
-    });
-
+        $(this).attr('src', 'images/cindymockup.jpg');
+});
      $('#soothe').hover(function () {
         console.log("hover over");
-        $(this).attr('src', 'images/soothe_hover.png').animate({
-     swing:450
-        })
+        $(this).attr('src', 'images/soothe_hover.png');
+     
     }, function () { //second function
-        $(this).attr('src', 'images/soothe.jpg').animate({
-            swing:450
-        })
+        $(this).attr('src', 'images/soothe.jpg');
+      
     });
      $('#ui').hover(function () {
         console.log("hover over");
-        $(this).attr('src', 'images/ui_hover.png').animate({
-     swing:450
-        })
+        $(this).attr('src', 'images/ui_hover.png');
     }, function () { //second function
-        $(this).attr('src', 'images/RakMockup.jpg').animate({
-            swing:450
-        })
+        $(this).attr('src', 'images/RakMockup.jpg');
     });
 
           $('#paint').hover(function () {
         console.log("hover over");
-        $(this).attr('src', 'images/paint_hover.png').animate({
-     swing:450
-        })
+        $(this).attr('src', 'images/paint_hover.png');
     }, function () { //second function
-        $(this).attr('src', 'images/tote.jpg').animate({
-            swing:450
-        })
+        $(this).attr('src', 'images/tote.jpg');
+        
     });
 
 }); //end
