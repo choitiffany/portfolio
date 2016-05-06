@@ -16,8 +16,8 @@
                 margin:0px 10px 10px 0px;
             }
 
-             img:not(#work img) {
-                padding:0px 10px 20px 0px;
+             img {
+                margin:0px 10px 20px 0px;
             }
 
             h1 {
@@ -43,7 +43,7 @@
             
             .top {
                 background-color: #333333;
-                padding: 15px 35px 10px 55px;
+                padding: 15px 35px 5px 55px;
                 margin-bottom: 10px;
             }
 
@@ -84,7 +84,7 @@
             
             #work img {
                 margin: 10px 0px 15px 20px;
-                
+
             }
             
             #work {
@@ -112,7 +112,7 @@
             }
 
             /*BUTTONS*/    
-            ul#site-nav a.button {
+            ul.site-nav a.button {
                 margin-top: 1em;
             }
 
