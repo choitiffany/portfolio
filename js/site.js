@@ -37,7 +37,14 @@ $(document).ready(function() {
         $(this).attr('src', 'images/paint_hover.png');
     }, function () { //second function
         $(this).attr('src', 'images/tote.jpg');
-        
     });
+
+
+          $('#rb').hover(function () {
+        console.log("hover over");
+        $(this).attr('src', 'images/remedy_hover.png');
+    }, function () { //second function
+        $(this).attr('src', 'images/rb.jpg');
+        });
 
 }); //end
