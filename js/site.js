@@ -1,9 +1,6 @@
 $(document).ready(function() {
   console.log("ready");
 
-
-  
-
    $('#storyspace').hover(function () {
         console.log("hover over");
         $(this).attr('src', 'images/ss_hover.png')
@@ -46,5 +43,7 @@ $(document).ready(function() {
     }, function () { //second function
         $(this).attr('src', 'images/rb.jpg');
         });
+
+          
 
 }); //end
