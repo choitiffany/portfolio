@@ -7,7 +7,7 @@
     
             body {
                 font-family: Montserrat;
-                font-weight:400; 
+                font-weight:400;
             }
             
             p {
@@ -41,7 +41,7 @@
                 font-size: .9em;
             }
             
-            .top {
+            .header {
                 background-color: #333333;
                 padding: 15px 35px 5px 55px;
                 margin-bottom: 10px;
@@ -90,13 +90,13 @@
                 margin: 10px;
             }
             
-            #work img {
+            section#work img {
                 margin: 10px 0px 15px 20px;
 
             }
             
-            #work {
-                padding: 20px 10px 100px 10px;
+            section#work {
+                padding: 20px 0px 100px 0px;
             }
             
             #about {
@@ -193,6 +193,30 @@
             a:hover {
                 color: #CBBB88;
             }
+
+            /*img hover */
+            section#work div#workhover ul{
+            list-style-type: none;
+         
+            }
+
+            section#work div#workhover ul li {
+            display: inline-block;
+            }
+
+            section#work div#workhover img.top {
+            position: absolute;
+            opacity: 1;
+            transition: opacity .2s ease-in-out;
+            }
+
+            section#work div#workhover img.top:hover {
+                opacity: 0.05;
+            }
+
+
+
+
             
-       
+
 
