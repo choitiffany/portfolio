@@ -1,6 +1,7 @@
- @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Anonymous+Pro);
- 
-            * {
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Cantarell);
+
+
+             *{ 
                 margin: 0px;
                 padding: 0px;
             }
@@ -11,7 +12,7 @@
             }
             
             p {
-                font-family: Anonymous Pro;
+                font-family: Cantarell;
                 font-size: .9em;
                 margin:0px 10px 10px 0px;
             }
@@ -21,8 +22,8 @@
             }
 
             h1 {
-                  font-family: Montserrat;
-                  font-weight:700;
+              font-family: Montserrat;
+              font-weight:700;
                 font-size: 2.5em;
                 margin: 15px 0px 20px 0px;
             }
@@ -37,7 +38,7 @@
             
             h3 {
                 color: white;
-                  font-family: Anonymous Pro;
+                  font-family: Cantarell;
                 font-size: .9em;
             }
             
@@ -213,10 +214,5 @@
             section#work div#workhover img.top:hover {
                 opacity: 0.05;
             }
-
-
-
-
-            
 
 
